@@ -36,7 +36,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" id="nhL-s8-ttJ">
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="nhL-s8-ttJ">
                                 <rect key="frame" x="41" y="304" width="293" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
@@ -44,6 +44,9 @@
                                     <segment title="20%"/>
                                     <segment title="25%"/>
                                 </segments>
+                                <connections>
+                                    <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="valueChanged" id="FFz-6k-XcZ"/>
+                                </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sGF-pL-crM">
                                 <rect key="frame" x="233" y="256" width="101" height="21"/>
@@ -59,7 +62,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="10M-j4-Uof">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" id="10M-j4-Uof">
                                 <rect key="frame" x="184" y="106" width="150" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
@@ -86,6 +89,7 @@
                     <navigationItem key="navigationItem" title="Tip Calculator" id="6s2-Hh-NuJ"/>
                     <connections>
                         <outlet property="billField" destination="10M-j4-Uof" id="CLT-NG-1vv"/>
+                        <outlet property="tipControl" destination="nhL-s8-ttJ" id="cpm-Ty-Rkh"/>
                         <outlet property="tipLabel" destination="Y5C-VH-gO5" id="8c8-OE-dHJ"/>
                         <outlet property="totalLabel" destination="sGF-pL-crM" id="vFl-J3-591"/>
                     </connections>
