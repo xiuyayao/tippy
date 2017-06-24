@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A964B751EFA50F300D0EDF9 /* defaultTipSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A964B741EFA50F300D0EDF9 /* defaultTipSettings.swift */; };
 		0AA3EDE31EF9BE6900996B6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA3EDE21EF9BE6900996B6B /* AppDelegate.swift */; };
 		0AA3EDE51EF9BE6900996B6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA3EDE41EF9BE6900996B6B /* ViewController.swift */; };
 		0AA3EDE81EF9BE6900996B6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AA3EDE61EF9BE6900996B6B /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A964B741EFA50F300D0EDF9 /* defaultTipSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = defaultTipSettings.swift; sourceTree = "<group>"; };
 		0AA3EDDF1EF9BE6900996B6B /* tippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA3EDE21EF9BE6900996B6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AA3EDE41EF9BE6900996B6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				0AA3EDE21EF9BE6900996B6B /* AppDelegate.swift */,
 				0AA3EDE41EF9BE6900996B6B /* ViewController.swift */,
 				0AA3EDE61EF9BE6900996B6B /* Main.storyboard */,
+				0A964B741EFA50F300D0EDF9 /* defaultTipSettings.swift */,
 				0AA3EDE91EF9BE6900996B6B /* Assets.xcassets */,
 				0AA3EDEB1EF9BE6900996B6B /* LaunchScreen.storyboard */,
 				0AA3EDEE1EF9BE6900996B6B /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A964B751EFA50F300D0EDF9 /* defaultTipSettings.swift in Sources */,
 				0AA3EDE51EF9BE6900996B6B /* ViewController.swift in Sources */,
 				0AA3EDE31EF9BE6900996B6B /* AppDelegate.swift in Sources */,
 			);
@@ -505,6 +509,7 @@
 				0AA3EE091EF9BE6900996B6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AA3EE0A1EF9BE6900996B6B /* Build configuration list for PBXNativeTarget "tippyTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				0AA3EE0C1EF9BE6900996B6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AA3EE0D1EF9BE6900996B6B /* Build configuration list for PBXNativeTarget "tippyUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				0AA3EE0F1EF9BE6900996B6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

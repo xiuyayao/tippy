@@ -42,5 +42,17 @@ class ViewController: UIViewController {
         tipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
     }
+    
+    
+    // when user clicks "Settings" button
+    @IBAction func Settings(_ sender: Any) {
+        performSegue(withIdentifier: "settingsSegue", sender: self)
+    }
+    // Outlet means "this will display blah"
+    // Action means doing something
+    
+    
+
+    
 }
 
